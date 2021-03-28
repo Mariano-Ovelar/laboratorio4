@@ -8,12 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'mis-proyectos';
 
-  edadUno = 1;
-  edadDos = 0;
+  edadUno: number = 2;
+  edadDos: number = 0;
   suma: number = 0;
   promedio: number = 0;
-  
-
   
   Promediar() {
     this.promedio = this.suma / 2;
@@ -22,7 +20,6 @@ export class AppComponent {
     this.suma = this.edadUno + this.edadDos;
   }
   Calcular() {
-   
     this.Sumar();
     this.Promediar();
   }
