@@ -1,20 +1,6 @@
-<div>
-  <label for="">EdadUno</label>
-  <br>
-  <input id="numEdadUno" type="number" min="0" max="100" value="0" [(ngModel)]="edadUno">
-  <br>
-  <label for="">EdadDos</label>
-  <br>
-  <input id="numEdadDos" type="number" min="0" max="100" value="0" [(ngModel)]="edadDos">
-</div>
+<ul>
+  <li><a routerLink="/ejercicio01">Ejercicio01</a></li>
+  <li><a routerLink="/">Ejercicio02</a></li>
+</ul>
 
-<div>
-  <label for="">Suma: {{suma}}</label>
-  <br>
-  <label for="">Promedio: {{promedio}}</label>
-</div>
-<div>
-  <button (click)=Calcular()>Calcular</button>
-  <button (click)=Limpiar()>Limpiar</button>
-</div>
 <router-outlet></router-outlet>
