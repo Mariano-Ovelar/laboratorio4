@@ -24,7 +24,6 @@ export class Ejercicio01Component implements OnInit {
     this.suma = this.edadUno + this.edadDos;
   }
   Calcular() {
-    this.suma = 100;
     this.Sumar();
     this.Promediar();
   }
